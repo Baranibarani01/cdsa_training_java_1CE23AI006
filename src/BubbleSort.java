@@ -1,4 +1,11 @@
 public class BubbleSort {
+    public static void main(String[] args){
+        int[] array = {5,3,4,2,9};
+        int[] result = sort(array);
+        for (int i=0;i<array.length;i++){
+            System.out.print(result[i] + " ");
+        }
+    }
 
     public static int[] sort(int[] array) {
         int len = array.length;
