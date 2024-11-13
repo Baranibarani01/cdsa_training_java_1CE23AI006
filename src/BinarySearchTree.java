@@ -103,7 +103,7 @@ public class BinarySearchTree {
     public static void main(String[] args) {
         BinarySearchTree bst = new BinarySearchTree();
 
-        // Insert nodes
+        
         bst.insert(50);
         bst.insert(30);
         bst.insert(20);
